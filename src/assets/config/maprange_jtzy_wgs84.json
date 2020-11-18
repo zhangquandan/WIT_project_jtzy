@@ -1,0 +1,46 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "id": "maprange_jtzy.1",
+    "geometry": {
+      "type": "MultiPolygon",
+      "coordinates": [
+        [
+          [
+            [114.2602932, 30.43316575],
+            [114.26032333, 30.43316413],
+            [114.26510325, 30.43291923],
+            [114.2639315, 30.42647582],
+            [114.25992431, 30.42668132],
+            [114.25695048, 30.42682928],
+            [114.25718927, 30.43018423],
+            [114.25724225, 30.43096119],
+            [114.25740269, 30.43331373],
+            [114.2602932, 30.43316575]
+          ]
+        ]
+      ]
+    },
+    "geometry_name": "geom",
+    "properties": {
+      "objectid": null,
+      "name": "武汉交通职业学院",
+      "shape_leng": null,
+      "remark": null,
+      "category": null,
+      "shape_le_1": null,
+      "shape_area": null
+    }
+  }],
+  "totalFeatures": 1,
+  "numberMatched": 1,
+  "numberReturned": 1,
+  "timeStamp": "2020-10-16T01:59:13.123Z",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    }
+  }
+}

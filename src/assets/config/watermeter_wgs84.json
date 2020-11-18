@@ -1,0 +1,248 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "id": "watermeter_jtzy.1",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [114.25723384, 30.43086828, 11.35]
+    },
+    "geometry_name": "geom",
+    "properties": {
+      "owner": "武汉交通职业学院",
+      "pointid": "A",
+      "category": "水表（井）",
+      "model": null,
+      "spec": null,
+      "appendages": null,
+      "groundz": 11.35,
+      "deepth": "0.8",
+      "x": null,
+      "y": null,
+      "label": null,
+      "remark": null,
+      "setupdate": "2020-10-14Z",
+      "epsg_x": null,
+      "epsg_y": null,
+      "name": "自来水总表"
+    }
+  }, {
+    "type": "Feature",
+    "id": "watermeter_jtzy.2",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [114.25834462, 30.43086391, 10.646]
+    },
+    "geometry_name": "geom",
+    "properties": {
+      "owner": "武汉交通职业学院",
+      "pointid": "A01",
+      "category": "水表（井）",
+      "model": null,
+      "spec": null,
+      "appendages": null,
+      "groundz": 10.646,
+      "deepth": "1.6",
+      "x": null,
+      "y": null,
+      "label": null,
+      "remark": null,
+      "setupdate": "2020-10-14Z",
+      "epsg_x": null,
+      "epsg_y": null,
+      "name": "自来水常压北供水表"
+    }
+  }, {
+    "type": "Feature",
+    "id": "watermeter_jtzy.3",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [114.25829322, 30.43044556, 10.13163209]
+    },
+    "geometry_name": "geom",
+    "properties": {
+      "owner": "武汉交通职业学院",
+      "pointid": "A0201",
+      "category": "水表（井）",
+      "model": null,
+      "spec": null,
+      "appendages": null,
+      "groundz": 10.1316320878,
+      "deepth": "1.2",
+      "x": null,
+      "y": null,
+      "label": null,
+      "remark": null,
+      "setupdate": "2020-10-14Z",
+      "epsg_x": null,
+      "epsg_y": null,
+      "name": "西区教学加压水表"
+    }
+  }, {
+    "type": "Feature",
+    "id": "watermeter_jtzy.4",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [114.26013772, 30.43229797, 10.32947624]
+    },
+    "geometry_name": "geom",
+    "properties": {
+      "owner": "武汉交通职业学院",
+      "pointid": "A0101",
+      "category": "水表（井）",
+      "model": null,
+      "spec": null,
+      "appendages": null,
+      "groundz": 10.3294762354,
+      "deepth": "0.6",
+      "x": null,
+      "y": null,
+      "label": null,
+      "remark": null,
+      "setupdate": "2020-10-14Z",
+      "epsg_x": null,
+      "epsg_y": null,
+      "name": "北区宿舍常压水表"
+    }
+  }, {
+    "type": "Feature",
+    "id": "watermeter_jtzy.5",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [114.25870289, 30.42920651, 9.18724229]
+    },
+    "geometry_name": "geom",
+    "properties": {
+      "owner": "武汉交通职业学院",
+      "pointid": "A02",
+      "category": "水表（井）",
+      "model": null,
+      "spec": null,
+      "appendages": null,
+      "groundz": 9.1872422902,
+      "deepth": "0.6",
+      "x": null,
+      "y": null,
+      "label": null,
+      "remark": null,
+      "setupdate": "2020-10-14Z",
+      "epsg_x": null,
+      "epsg_y": null,
+      "name": "泵房出水水表"
+    }
+  }, {
+    "type": "Feature",
+    "id": "watermeter_jtzy.6",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [114.26040494, 30.43228849, 9.94962742]
+    },
+    "geometry_name": "geom",
+    "properties": {
+      "owner": "武汉交通职业学院",
+      "pointid": "A0202",
+      "category": "水表（井）",
+      "model": null,
+      "spec": null,
+      "appendages": null,
+      "groundz": 9.94962742391,
+      "deepth": "0.6",
+      "x": null,
+      "y": null,
+      "label": null,
+      "remark": null,
+      "setupdate": "2020-10-14Z",
+      "epsg_x": null,
+      "epsg_y": null,
+      "name": "北区宿舍加压水表"
+    }
+  }, {
+    "type": "Feature",
+    "id": "watermeter_jtzy.7",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [114.26230759, 30.42860066, 8.07495367]
+    },
+    "geometry_name": "geom",
+    "properties": {
+      "owner": "武汉交通职业学院",
+      "pointid": "A0102",
+      "category": "水表（井）",
+      "model": null,
+      "spec": null,
+      "appendages": null,
+      "groundz": 8.07495366532,
+      "deepth": "0.5",
+      "x": null,
+      "y": null,
+      "label": null,
+      "remark": null,
+      "setupdate": "2020-10-14Z",
+      "epsg_x": null,
+      "epsg_y": null,
+      "name": "公租房常压水表"
+    }
+  }, {
+    "type": "Feature",
+    "id": "watermeter_jtzy.8",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [114.26216881, 30.42852507, 7.88629064]
+    },
+    "geometry_name": "geom",
+    "properties": {
+      "owner": "武汉交通职业学院",
+      "pointid": "A0203",
+      "category": "水表（井）",
+      "model": null,
+      "spec": null,
+      "appendages": null,
+      "groundz": 7.88629063537,
+      "deepth": "1.2",
+      "x": null,
+      "y": null,
+      "label": null,
+      "remark": null,
+      "setupdate": "2020-10-14Z",
+      "epsg_x": null,
+      "epsg_y": null,
+      "name": "公租房加压水表"
+    }
+  }, {
+    "type": "Feature",
+    "id": "watermeter_jtzy.9",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [114.26022899, 30.42825113, 8.8068769]
+    },
+    "geometry_name": "geom",
+    "properties": {
+      "owner": "武汉交通职业学院",
+      "pointid": "A0204",
+      "category": "水表（井）",
+      "model": null,
+      "spec": null,
+      "appendages": null,
+      "groundz": 8.80687690499,
+      "deepth": "1",
+      "x": null,
+      "y": null,
+      "label": null,
+      "remark": null,
+      "setupdate": "2020-10-14Z",
+      "epsg_x": null,
+      "epsg_y": null,
+      "name": "南区宿舍加压水表"
+    }
+  }],
+  "totalFeatures": 9,
+  "numberMatched": 9,
+  "numberReturned": 9,
+  "timeStamp": "2020-10-19T06:43:55.425Z",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    }
+  }
+}
