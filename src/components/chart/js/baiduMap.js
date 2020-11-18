@@ -131,7 +131,7 @@ function setPoint() {
       }
     }
     let win = getWindow(meterObj, item.properties.name)
-    marker.addEventListener('click', function(e) {
+    marker.addEventListener('click', function (e) {
       map.openInfoWindow(win, point);
     })
     btns.push({
@@ -175,7 +175,7 @@ function setMaprange() {
       sideFillOpacity: 1,
     });
     let win = getWindow(maprangeObj, item.properties.name)
-    ply1.addEventListener('click', function(e) {
+    ply1.addEventListener('click', function (e) {
       map.openInfoWindow(win, new BMapGL.Point(e.latLng.lng, e.latLng.lat));
     });
     btns.push({
@@ -188,7 +188,6 @@ function setMaprange() {
   }
   upDateLeftList()
 }
-
 
 
 function setDMA() {
@@ -222,7 +221,7 @@ function setDMA() {
       sideFillOpacity: 1,
     });
     let win = getWindow(dmaObj, item.properties.name)
-    ply1.addEventListener('click', function(e) {
+    ply1.addEventListener('click', function (e) {
       map.openInfoWindow(win, new BMapGL.Point(e.latLng.lng, e.latLng.lat));
     });
     btns.push({
@@ -268,7 +267,7 @@ function setBuildData() {
       sideFillOpacity: 1,
     });
 
-    c.addEventListener('click', function() {
+    c.addEventListener('click', function () {
       map.openInfoWindow(win, polygon[0]);
     });
     let win = getWindow(buildObj, item.properties.name)
@@ -286,7 +285,7 @@ function setBuildData() {
 function getWindow(obj, name) {
   let opts = {
     width: 200,
-    height: 150,
+    height: 200,
     enableAutoPan: false,
     title: '<div style="font-weight:800">' + name + '</div>'
   };
@@ -297,6 +296,7 @@ function getWindow(obj, name) {
       '<div>当日水量：' + obj.value.total + '</div>' +
       '<div>日量隔周增量：' + obj.value.addTotal + '</div>' +
       '<div>日量隔周增幅：' + obj.value.addRangeTotal + '</div>' +
+      '<div>报警日最小流量：' + obj.value.min + '</div>' +
       '<div>最小流量隔周增量：' + obj.value.addMin + '</div>' +
       '<div>最小流量隔周增幅：' + obj.value.addRangeMin + '</div>' +
       '<div>综合侧漏指数：' + obj.value.leakageIndex + '</div>' +
@@ -310,7 +310,6 @@ function getWindow(obj, name) {
 
 
 }
-
 
 
 function MapMenu() {
@@ -342,11 +341,10 @@ function MapMenu5() {
 }
 
 
-
 function createMapMenu(isScreen) {
 
   MapMenu5.prototype = new BMapGL.Control()
-  MapMenu5.prototype.initialize = function(map) {
+  MapMenu5.prototype.initialize = function (map) {
     var div = document.createElement('div')
     var valbox = document.createElement('div')
     div.style.width = "100%"
@@ -367,7 +365,7 @@ function createMapMenu(isScreen) {
       item.style.height = "12px"
       item.style.width = "4%"
       item.style.verticalAlign = 'top'
-      if(values[i]){
+      if (values[i]) {
         var val = document.createElement('div')
         val.innerText = values[i]
         val.style.color = '#fff'
@@ -389,7 +387,7 @@ function createMapMenu(isScreen) {
   map.addControl(new MapMenu5());
 
   MapMenu.prototype = new BMapGL.Control()
-  MapMenu.prototype.initialize = function(map) {
+  MapMenu.prototype.initialize = function (map) {
     var div = document.createElement('div');
     div.style.padding = "7px 10px";
     div.style.boxShadow = "0 2px 6px 0 rgba(27, 142, 236, 0.5)";
@@ -405,7 +403,7 @@ function createMapMenu(isScreen) {
       }
       menuItem.appendChild(document.createTextNode(item));
       menuItem.style.cursor = 'pointer'
-      menuItem.onclick = function() {
+      menuItem.onclick = function () {
         changeView(item)
       }
       menu.push(menuItem)
@@ -420,7 +418,7 @@ function createMapMenu(isScreen) {
   map.addControl(mapMenu);
 
   MapMenu2.prototype = new BMapGL.Control()
-  MapMenu2.prototype.initialize = function(map) {
+  MapMenu2.prototype.initialize = function (map) {
     var div = document.createElement('div')
     div.style.width = '50px'
     div.style.height = '50px'
@@ -430,9 +428,9 @@ function createMapMenu(isScreen) {
     img.src = img3
     img.style.cursor = 'pointer'
     div.appendChild(img)
-    img.onclick = function() {
+    img.onclick = function () {
       map.reset()
-      setTimeout(function() {
+      setTimeout(function () {
         if (zoom_) {
           map.setZoom(zoom_)
         }
@@ -448,7 +446,7 @@ function createMapMenu(isScreen) {
 
 
   MapMenu4.prototype = new BMapGL.Control()
-  MapMenu4.prototype.initialize = function(map) {
+  MapMenu4.prototype.initialize = function (map) {
     var div = document.createElement('div')
     div.style.width = '50px'
     div.style.height = '50px'
@@ -458,13 +456,13 @@ function createMapMenu(isScreen) {
     if (!isScreen) {
       img.src = img1
       div.appendChild(img)
-      img.onclick = function() {
+      img.onclick = function () {
         router.push('/bigMap')
       }
     } else {
       img.src = img2
       div.appendChild(img)
-      img.onclick = function() {
+      img.onclick = function () {
         router.push('/')
       }
     }
@@ -477,7 +475,7 @@ function createMapMenu(isScreen) {
 function upDateLeftList() {
   map.removeControl(btnListView)
   MapMenu3.prototype = new BMapGL.Control()
-  MapMenu3.prototype.initialize = function(map) {
+  MapMenu3.prototype.initialize = function (map) {
     var div = document.createElement('div')
     div.style.width = "150px"
     div.style.height = "96%"
@@ -494,11 +492,11 @@ function upDateLeftList() {
       btn.style.overflow = "hidden"
       btn.style.textOverflow = "ellipsis"
       btn.style.whiteSpace = "nowrap"
-      btn.onclick = function() {
+      btn.onclick = function () {
         item.win._config.enableAutoPan = true
         console.log(item.win)
         map.openInfoWindow(item.win, item.polygon);
-        setTimeout(function() {
+        setTimeout(function () {
           item.win._config.enableAutoPan = false
         }, 1000)
       }
@@ -510,7 +508,6 @@ function upDateLeftList() {
   btnListView = new MapMenu3();
   map.addControl(btnListView);
 }
-
 
 
 function changeView(type) {

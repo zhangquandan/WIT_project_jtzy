@@ -9,6 +9,7 @@ export function showInfo(params, index) {
       '当日水量：' + params.data.value[index].total + '</br>' +
       '日量隔周增量：' + params.data.value[index].addTotal + '</br>' +
       '日量隔周增幅：' + params.data.value[index].addRangeTotal + '</br>' +
+      '报警日最小流量：' + params.data.value[index].min + '</br>' +
       '最小流量隔周增量：' + params.data.value[index].addMin + '</br>' +
       '最小流量隔周增幅：' + params.data.value[index].addRangeMin + '</br>' +
       '综合漏损指数：' + params.data.value[index].leakageIndex + '</br>' +
