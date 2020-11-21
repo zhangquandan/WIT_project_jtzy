@@ -2,7 +2,7 @@
   <div class="content">
     <div class="left-column">
       <div class="left-column-top">
-        <ranking v-show="$store.state.viewType != 'campus'" ref="rank" :icon="icon" title="水表综合侧漏指数"></ranking>
+        <ranking v-show="$store.state.viewType != 'campus'" ref="rank" :icon="icon" title="水表综合漏损指数"></ranking>
         <campus v-show="$store.state.viewType == 'campus'"></campus>
       </div>
       <div class="left-column-bottom">

@@ -299,7 +299,7 @@ function getWindow(obj, name) {
       '<div>报警日最小流量：' + obj.value.min + '</div>' +
       '<div>最小流量隔周增量：' + obj.value.addMin + '</div>' +
       '<div>最小流量隔周增幅：' + obj.value.addRangeMin + '</div>' +
-      '<div>综合侧漏指数：' + obj.value.leakageIndex + '</div>' +
+      '<div>综合漏损指数：' + obj.value.leakageIndex + '</div>' +
       '</div>', opts);
   } else {
     return new BMapGL.InfoWindow(

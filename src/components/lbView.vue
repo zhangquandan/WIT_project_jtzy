@@ -2,7 +2,7 @@
   <div id="lbView">
     <div class="top">
       <img style="width: 25px; height: 25px; vertical-align: -4px; margin-right: 5px;" src="../assets/img/Lower-left-icon.png" />
-      {{title}}综合侧漏指数
+      {{title}}综合漏损指数
     </div>
     <div class="column">
       <span style="vertical-align: top;" class="column-item">{{title}}</span>

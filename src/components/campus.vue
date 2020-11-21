@@ -7,7 +7,7 @@
     <div class="content">
       <div class="title">全校区</div>
       <ul class="list">
-        <li>综合侧漏指数:<span>{{$store.state.maprange[0] ? $store.state.maprange[0].value.leakageIndex : '正在获取'}}</span></li>
+        <li>综合漏损指数:<span>{{$store.state.maprange[0] ? $store.state.maprange[0].value.leakageIndex : '正在获取'}}</span></li>
         <li>日用量隔周增量:<span>{{$store.state.maprange[0] ? $store.state.maprange[0].value.addTotal : '正在获取'}}吨</span></li>
         <li>日用量隔周增幅:<span>{{$store.state.maprange[0] ? $store.state.maprange[0].value.addRangeTotal : '正在获取'}}</span></li>
         <li>日最小量隔周增量:<span>{{$store.state.maprange[0] ? $store.state.maprange[0].value.addMin : '正在获取'}}吨</span></li>

@@ -3,7 +3,7 @@
     <div>
       <div class="top">
         <img style="width: 25px; height: 25px; vertical-align: -4px; margin-right: 5px;" :src="icon" />
-        {{title}}综合侧漏指数
+        {{title}}综合漏损指数
       </div>
     </div>
     <div id="comp" v-show="isHaveData" :style="{'marginLeft':canvesLeft}"></div>
