@@ -2,7 +2,7 @@
   <div id="campus">
     <div class="top">
       <img style="width: 25px; height: 25px; vertical-align: -4px; margin-right: 5px;" src="../assets/img/RU_icon.png" />
-      校区用水漏损概括
+      校区用水漏损概况
     </div>
     <div class="content">
       <div class="title">全校区</div>

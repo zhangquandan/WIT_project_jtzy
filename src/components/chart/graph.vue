@@ -98,19 +98,19 @@
           series: [{
               name: '用水定额',
               type: 'line',
-              smooth: true,
+              smooth: false,
               data: this.$store.state.zx.de
             },
             {
               name: '节水量',
               type: 'line',
-              smooth: true,
+              smooth: false,
               data: this.$store.state.zx.jsl,
             },
             {
               name: '用水量',
               type: 'line',
-              smooth: true,
+              smooth: false,
               data: this.$store.state.zx.ysl,
             }
           ]

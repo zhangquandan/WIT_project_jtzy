@@ -6,7 +6,7 @@
     </div>
     <div class="text">
       <div class="titleText">
-        <span>在线{{$store.state.meterInfo[1]}}</span><span style="margin-left: 10px;">掉线{{$store.state.meterInfo[2]}}</span>
+        <span>在线{{$store.state.meterInfo[1]}}</span><span style="margin-left: 10px;">离线{{$store.state.meterInfo[2]}}</span>
       </div>
     </div>
     <div class="charts" ref="biao"></div>
@@ -145,7 +145,7 @@
               z: 0,
               silent: true,
               coordinateSystem: 'polar',
-              name: '掉线',
+              name: '离线',
               roundCap: true,
               color: new echarts.graphic.LinearGradient(
                 0, 0, 1, 1,

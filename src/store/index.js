@@ -13,7 +13,7 @@ export default new Vuex.Store({
     maprange:[], //学校管控数据
     topTen:[],
     schoolInfo:{},//学校信息,
-    meterInfo:[],//水表在线情况 [总数,在线,掉线]
+    meterInfo:[],//水表在线情况 [总数,在线,离线]
     zx:{
     	de: [], //每月用水定额
     	ysl: [], //每月用水量
@@ -23,7 +23,7 @@ export default new Vuex.Store({
     	yyjs: 0, //以用节水
     	yyjsl: 0, //已用节水率
     },
-    
+
     //总体用水指标
     indicator: [{
     	label: "昨日用水总量(T)",
@@ -49,7 +49,7 @@ export default new Vuex.Store({
     setBuildData:function(state,args){
       state.buildData = args
     },
-    
+
     upDateIndicator:function(state,args){
       state.indicator[args.index].data = args.val
       state.indicator.push({})
